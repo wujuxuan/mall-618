@@ -1,0 +1,13 @@
+#配置数据源
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: root
+    url: jdbc:mysql://120.79.138.220/gulimall_pms?useUnicode=true&characterEncoding=UTF-8&useSSL=false&serverTimezone=Asia/Shanghai
+mybatis-plus:
+  mapper-locations: classpath:/mapper/**/*.xml  #配置mybatisPlus的mapper.xml文件位子
+  global-config:
+    db-config:
+      id-type: auto  #数据库的主键全部默认是自增
+

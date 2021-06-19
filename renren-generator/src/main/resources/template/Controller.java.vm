@@ -3,18 +3,18 @@ package ${package}.${moduleName}.controller;
 import java.util.Arrays;
 import java.util.Map;
 
-import org.apache.shiro.authz.annotation.RequiresPermissions;
+import com.baomidou.mybatisplus.core.toolkit.Wrappers;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
-
+import com.wubaba.mall.util.R;
+import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import ${package}.${moduleName}.entity.${className}Entity;
 import ${package}.${moduleName}.service.${className}Service;
-import ${mainPath}.common.utils.PageUtils;
-import ${mainPath}.common.utils.R;
+
 
 
 
@@ -35,56 +35,51 @@ public class ${className}Controller {
      * 列表
      */
     @RequestMapping("/list")
-    @RequiresPermissions("${moduleName}:${pathName}:list")
-    public R list(@RequestParam Map<String, Object> params){
-        PageUtils page = ${classname}Service.queryPage(params);
-
-        return R.ok().put("page", page);
+    public R list(Page pageForm, ${classname}Entity ${classname}){
+        Page page = ${classname}Service.page(pageForm, Wrappers.query(${classname}));
+        return R.success("查询成功",page);
     }
 
 
     /**
-     * 信息
+     * 查询一条
      */
     @RequestMapping("/info/{${pk.attrname}}")
-    @RequiresPermissions("${moduleName}:${pathName}:info")
     public R info(@PathVariable("${pk.attrname}") ${pk.attrType} ${pk.attrname}){
 		${className}Entity ${classname} = ${classname}Service.getById(${pk.attrname});
 
-        return R.ok().put("${classname}", ${classname});
+       // return R.ok().put("${classname}", ${classname});
+        return R.success("查询成功",${classname});
     }
 
     /**
      * 保存
      */
     @RequestMapping("/save")
-    @RequiresPermissions("${moduleName}:${pathName}:save")
     public R save(@RequestBody ${className}Entity ${classname}){
 		${classname}Service.save(${classname});
 
-        return R.ok();
+        return R.success("保存成功");
     }
 
     /**
      * 修改
      */
     @RequestMapping("/update")
-    @RequiresPermissions("${moduleName}:${pathName}:update")
     public R update(@RequestBody ${className}Entity ${classname}){
 		${classname}Service.updateById(${classname});
 
-        return R.ok();
+        return R.success("修改成功");
     }
 
     /**
      * 删除
      */
     @RequestMapping("/delete")
-    @RequiresPermissions("${moduleName}:${pathName}:delete")
     public R delete(@RequestBody ${pk.attrType}[] ${pk.attrname}s){
 		${classname}Service.removeByIds(Arrays.asList(${pk.attrname}s));
-
-        return R.ok();
+        return R.success("删除成功");
     }
+
 
 }
