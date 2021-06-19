@@ -5,11 +5,7 @@ import java.util.Map;
 
 import com.baomidou.mybatisplus.core.toolkit.Wrappers;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 import com.wubaba.mall.util.R;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.example.mallcoupon.entity.SmsCouponEntity;
@@ -45,12 +41,14 @@ public class SmsCouponController {
     /**
      * 查询一条
      */
+    @ResponseBody
     @RequestMapping("/info/{id}")
     public R info(@PathVariable("id") Long id){
 		SmsCouponEntity smsCoupon = smsCouponService.getById(id);
-
-       // return R.ok().put("smsCoupon", smsCoupon);
+        System.out.println(smsCoupon);
         return R.success("查询成功",smsCoupon);
+
+
     }
 
     /**

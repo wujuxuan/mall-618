@@ -3,6 +3,7 @@ package com.example.mallmember.controller;
 import java.util.Arrays;
 
 import com.baomidou.mybatisplus.core.toolkit.Wrappers;
+import com.example.mallcoupon.entity.SmsCouponEntity;
 import com.example.mallmember.openFeign.CouponOpenFeign;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -34,13 +35,12 @@ public class UmsMemberController {
     private CouponOpenFeign couponOpenFeign;
 
     /**
-     * 测试远程条用
-     * 查询用户的优惠券
+     * 测试
      */
-    @RequestMapping("listCouponById")
-    public R listCoupon(){
-        Page<Object> objectPage = new Page<>(1, 2);
-        R list = couponOpenFeign.list(objectPage, null);
+    @RequestMapping("test/{id}")
+    public R list (@PathVariable("id") Long id){
+        R list = couponOpenFeign.list(id);
+
         return list;
     }
 
@@ -61,8 +61,6 @@ public class UmsMemberController {
     @RequestMapping("/info/{id}")
     public R info(@PathVariable("id") Long id){
 		UmsMemberEntity umsMember = umsMemberService.getById(id);
-
-       // return R.ok().put("umsMember", umsMember);
         return R.success("查询成功",umsMember);
     }
 

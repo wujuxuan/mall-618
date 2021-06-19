@@ -4,13 +4,13 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
     username: root
     password: root
-    url: jdbc:mysql://120.79.138.220/gulimall_member?useUnicode=true&characterEncoding=UTF-8&useSSL=false&serverTimezone=Asia/Shanghai
+    url: jdbc:mysql://120.79.138.220/gulimall_ums?useUnicode=true&characterEncoding=UTF-8&useSSL=false&serverTimezone=Asia/Shanghai
   cloud:
     nacos:
       discovery:
         server-addr: 120.79.138.220:8848 #nacos注册地址
   application:
-    name: mall-coupon
+    name: mall-member
 #ORM设置
 mybatis-plus:
   mapper-locations: classpath:/mapper/**/*.xml  #配置mybatisPlus的mapper.xml文件位子
@@ -21,6 +21,6 @@ mybatis-plus:
       logic-not-delete-value: 0 #逻辑未删除
 
 server:
-  port: 7000 #端口设置
+  port: 8000 #端口设置
 
 

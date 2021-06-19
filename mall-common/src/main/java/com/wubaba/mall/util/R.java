@@ -1,31 +1,37 @@
 package com.wubaba.mall.util;
 
 import lombok.Data;
+import lombok.ToString;
 
 import java.io.Serializable;
 
+@ToString
 @Data
 public class R<T> implements Serializable {
+    private static final long serialVersionUID = 1L;
+
     /**
      * 响应代码
      */
-    private long code;
+    public Integer code;
     /**
      * 响应数据
      */
-    private T data;
+    public T data;
 
     /**
      * 响应消息
      */
-    private String msg;
-
-    private R(long code , String msg , T data){
+    public String msg;
+    public R(Integer code , String msg , T data){
         this.msg = msg;
         this.code = code;
         this.data = data;
     }
 
+    public R(){
+
+    }
     /**
      * 响应成功并携带消息
      * @param msg
@@ -34,7 +40,7 @@ public class R<T> implements Serializable {
      * @return
      */
     public static <E> R success(String msg, E data){
-        return new R<>(200,msg,data);
+        return new R<E>(200,msg,data);
     }
 
     /**
@@ -44,7 +50,7 @@ public class R<T> implements Serializable {
      * @return
      */
     public static <E> R success(String msg){
-        return new R<>(200,msg,null);
+        return new R<E>(200,msg,null);
     }
 
     /**
@@ -61,11 +67,11 @@ public class R<T> implements Serializable {
     /**
      * 失败不携带数据
      * @param msg
-     * @param data
      * @param <E>
      * @return
      */
     public static <E> R field(String msg){
         return new R<>(200,msg,null);
     }
+
 }
