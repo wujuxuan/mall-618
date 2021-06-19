@@ -5,144 +5,72 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="43530263-c0ff-4db7-8dff-43cfed415449" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/java/com/example/mallcoupon/controller/SmsCouponController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/java/com/example/mallcoupon/controller/SmsCouponHistoryController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/java/com/example/mallcoupon/controller/SmsCouponSpuCategoryRelationController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/java/com/example/mallcoupon/controller/SmsCouponSpuRelationController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/java/com/example/mallcoupon/controller/SmsHomeAdvController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/java/com/example/mallcoupon/controller/SmsHomeSubjectController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/java/com/example/mallcoupon/controller/SmsHomeSubjectSpuController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/java/com/example/mallcoupon/controller/SmsMemberPriceController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/java/com/example/mallcoupon/controller/SmsSeckillPromotionController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/java/com/example/mallcoupon/controller/SmsSeckillSessionController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/java/com/example/mallcoupon/controller/SmsSeckillSkuNoticeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/java/com/example/mallcoupon/controller/SmsSeckillSkuRelationController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/java/com/example/mallcoupon/controller/SmsSkuFullReductionController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/java/com/example/mallcoupon/controller/SmsSkuLadderController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/java/com/example/mallcoupon/controller/SmsSpuBoundsController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/java/com/example/mallcoupon/controller/UndoLogController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/java/com/example/mallcoupon/dao/SmsCouponDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/java/com/example/mallcoupon/dao/SmsCouponHistoryDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/java/com/example/mallcoupon/dao/SmsCouponSpuCategoryRelationDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/java/com/example/mallcoupon/dao/SmsCouponSpuRelationDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/java/com/example/mallcoupon/dao/SmsHomeAdvDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/java/com/example/mallcoupon/dao/SmsHomeSubjectDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/java/com/example/mallcoupon/dao/SmsHomeSubjectSpuDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/java/com/example/mallcoupon/dao/SmsMemberPriceDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/java/com/example/mallcoupon/dao/SmsSeckillPromotionDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/java/com/example/mallcoupon/dao/SmsSeckillSessionDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/java/com/example/mallcoupon/dao/SmsSeckillSkuNoticeDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/java/com/example/mallcoupon/dao/SmsSeckillSkuRelationDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/java/com/example/mallcoupon/dao/SmsSkuFullReductionDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/java/com/example/mallcoupon/dao/SmsSkuLadderDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/java/com/example/mallcoupon/dao/SmsSpuBoundsDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/java/com/example/mallcoupon/dao/UndoLogDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/java/com/example/mallcoupon/entity/SmsCouponEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/java/com/example/mallcoupon/entity/SmsCouponHistoryEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/java/com/example/mallcoupon/entity/SmsCouponSpuCategoryRelationEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/java/com/example/mallcoupon/entity/SmsCouponSpuRelationEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/java/com/example/mallcoupon/entity/SmsHomeAdvEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/java/com/example/mallcoupon/entity/SmsHomeSubjectEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/java/com/example/mallcoupon/entity/SmsHomeSubjectSpuEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/java/com/example/mallcoupon/entity/SmsMemberPriceEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/java/com/example/mallcoupon/entity/SmsSeckillPromotionEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/java/com/example/mallcoupon/entity/SmsSeckillSessionEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/java/com/example/mallcoupon/entity/SmsSeckillSkuNoticeEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/java/com/example/mallcoupon/entity/SmsSeckillSkuRelationEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/java/com/example/mallcoupon/entity/SmsSkuFullReductionEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/java/com/example/mallcoupon/entity/SmsSkuLadderEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/java/com/example/mallcoupon/entity/SmsSpuBoundsEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/java/com/example/mallcoupon/entity/UndoLogEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/java/com/example/mallcoupon/service/SmsCouponHistoryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/java/com/example/mallcoupon/service/SmsCouponService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/java/com/example/mallcoupon/service/SmsCouponSpuCategoryRelationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/java/com/example/mallcoupon/service/SmsCouponSpuRelationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/java/com/example/mallcoupon/service/SmsHomeAdvService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/java/com/example/mallcoupon/service/SmsHomeSubjectService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/java/com/example/mallcoupon/service/SmsHomeSubjectSpuService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/java/com/example/mallcoupon/service/SmsMemberPriceService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/java/com/example/mallcoupon/service/SmsSeckillPromotionService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/java/com/example/mallcoupon/service/SmsSeckillSessionService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/java/com/example/mallcoupon/service/SmsSeckillSkuNoticeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/java/com/example/mallcoupon/service/SmsSeckillSkuRelationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/java/com/example/mallcoupon/service/SmsSkuFullReductionService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/java/com/example/mallcoupon/service/SmsSkuLadderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/java/com/example/mallcoupon/service/SmsSpuBoundsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/java/com/example/mallcoupon/service/UndoLogService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/java/com/example/mallcoupon/service/impl/SmsCouponHistoryServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/java/com/example/mallcoupon/service/impl/SmsCouponServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/java/com/example/mallcoupon/service/impl/SmsCouponSpuCategoryRelationServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/java/com/example/mallcoupon/service/impl/SmsCouponSpuRelationServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/java/com/example/mallcoupon/service/impl/SmsHomeAdvServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/java/com/example/mallcoupon/service/impl/SmsHomeSubjectServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/java/com/example/mallcoupon/service/impl/SmsHomeSubjectSpuServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/java/com/example/mallcoupon/service/impl/SmsMemberPriceServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/java/com/example/mallcoupon/service/impl/SmsSeckillPromotionServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/java/com/example/mallcoupon/service/impl/SmsSeckillSessionServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/java/com/example/mallcoupon/service/impl/SmsSeckillSkuNoticeServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/java/com/example/mallcoupon/service/impl/SmsSeckillSkuRelationServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/java/com/example/mallcoupon/service/impl/SmsSkuFullReductionServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/java/com/example/mallcoupon/service/impl/SmsSkuLadderServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/java/com/example/mallcoupon/service/impl/SmsSpuBoundsServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/java/com/example/mallcoupon/service/impl/UndoLogServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-member/src/main/java/com/example/mallmember/controller/UmsGrowthChangeHistoryController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-member/src/main/java/com/example/mallmember/controller/UmsIntegrationChangeHistoryController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-member/src/main/java/com/example/mallmember/controller/UmsMemberCollectSpuController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-member/src/main/java/com/example/mallmember/controller/UmsMemberCollectSubjectController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-member/src/main/java/com/example/mallmember/controller/UmsMemberController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-member/src/main/java/com/example/mallmember/controller/UmsMemberLevelController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-member/src/main/java/com/example/mallmember/controller/UmsMemberLoginLogController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-member/src/main/java/com/example/mallmember/controller/UmsMemberReceiveAddressController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-member/src/main/java/com/example/mallmember/controller/UmsMemberStatisticsInfoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-member/src/main/java/com/example/mallmember/controller/UndoLogController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-member/src/main/java/com/example/mallmember/dao/UmsGrowthChangeHistoryDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-member/src/main/java/com/example/mallmember/dao/UmsIntegrationChangeHistoryDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-member/src/main/java/com/example/mallmember/dao/UmsMemberCollectSpuDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-member/src/main/java/com/example/mallmember/dao/UmsMemberCollectSubjectDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-member/src/main/java/com/example/mallmember/dao/UmsMemberDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-member/src/main/java/com/example/mallmember/dao/UmsMemberLevelDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-member/src/main/java/com/example/mallmember/dao/UmsMemberLoginLogDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-member/src/main/java/com/example/mallmember/dao/UmsMemberReceiveAddressDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-member/src/main/java/com/example/mallmember/dao/UmsMemberStatisticsInfoDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-member/src/main/java/com/example/mallmember/dao/UndoLogDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-member/src/main/java/com/example/mallmember/entity/UmsGrowthChangeHistoryEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-member/src/main/java/com/example/mallmember/entity/UmsIntegrationChangeHistoryEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-member/src/main/java/com/example/mallmember/entity/UmsMemberCollectSpuEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-member/src/main/java/com/example/mallmember/entity/UmsMemberCollectSubjectEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-member/src/main/java/com/example/mallmember/entity/UmsMemberEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-member/src/main/java/com/example/mallmember/entity/UmsMemberLevelEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-member/src/main/java/com/example/mallmember/entity/UmsMemberLoginLogEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-member/src/main/java/com/example/mallmember/entity/UmsMemberReceiveAddressEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-member/src/main/java/com/example/mallmember/entity/UmsMemberStatisticsInfoEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-member/src/main/java/com/example/mallmember/entity/UndoLogEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-member/src/main/java/com/example/mallmember/service/UmsGrowthChangeHistoryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-member/src/main/java/com/example/mallmember/service/UmsIntegrationChangeHistoryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-member/src/main/java/com/example/mallmember/service/UmsMemberCollectSpuService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-member/src/main/java/com/example/mallmember/service/UmsMemberCollectSubjectService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-member/src/main/java/com/example/mallmember/service/UmsMemberLevelService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-member/src/main/java/com/example/mallmember/service/UmsMemberLoginLogService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-member/src/main/java/com/example/mallmember/service/UmsMemberReceiveAddressService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-member/src/main/java/com/example/mallmember/service/UmsMemberService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-member/src/main/java/com/example/mallmember/service/UmsMemberStatisticsInfoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-member/src/main/java/com/example/mallmember/service/UndoLogService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-member/src/main/java/com/example/mallmember/service/impl/UmsGrowthChangeHistoryServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-member/src/main/java/com/example/mallmember/service/impl/UmsIntegrationChangeHistoryServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-member/src/main/java/com/example/mallmember/service/impl/UmsMemberCollectSpuServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-member/src/main/java/com/example/mallmember/service/impl/UmsMemberCollectSubjectServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-member/src/main/java/com/example/mallmember/service/impl/UmsMemberLevelServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-member/src/main/java/com/example/mallmember/service/impl/UmsMemberLoginLogServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-member/src/main/java/com/example/mallmember/service/impl/UmsMemberReceiveAddressServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-member/src/main/java/com/example/mallmember/service/impl/UmsMemberServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-member/src/main/java/com/example/mallmember/service/impl/UmsMemberStatisticsInfoServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-member/src/main/java/com/example/mallmember/service/impl/UndoLogServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-member/src/main/java/com/example/mallmember/openFeign/CouponOpenFeign.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-common/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-common/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-coupon/src/main/java/com/example/mallcoupon/MallCouponApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-coupon/src/main/java/com/example/mallcoupon/MallCouponApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-coupon/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/mall-coupon/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-member/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/mall-member/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren-generator/src/main/java/io/renren/RenrenApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/renren-generator/src/main/java/io/renren/RenrenApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren-generator/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/renren-generator/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren-generator/src/main/resources/generator.properties" beforeDir="false" afterPath="$PROJECT_DIR$/renren-generator/src/main/resources/generator.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-coupon/src/main/java/com/example/mallcoupon/controller/SmsCouponController.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-coupon/src/main/java/com/example/mallcoupon/controller/SmsCouponController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-coupon/src/main/java/com/example/mallcoupon/entity/SmsCouponEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-common/src/main/java/com/example/mallcoupon/entity/SmsCouponEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-coupon/src/main/java/com/example/mallcoupon/entity/SmsCouponHistoryEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-common/src/main/java/com/example/mallcoupon/entity/SmsCouponHistoryEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-coupon/src/main/java/com/example/mallcoupon/entity/SmsCouponSpuCategoryRelationEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-common/src/main/java/com/example/mallcoupon/entity/SmsCouponSpuCategoryRelationEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-coupon/src/main/java/com/example/mallcoupon/entity/SmsCouponSpuRelationEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-common/src/main/java/com/example/mallcoupon/entity/SmsCouponSpuRelationEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-coupon/src/main/java/com/example/mallcoupon/entity/SmsHomeAdvEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-common/src/main/java/com/example/mallcoupon/entity/SmsHomeAdvEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-coupon/src/main/java/com/example/mallcoupon/entity/SmsHomeSubjectEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-common/src/main/java/com/example/mallcoupon/entity/SmsHomeSubjectEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-coupon/src/main/java/com/example/mallcoupon/entity/SmsHomeSubjectSpuEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-common/src/main/java/com/example/mallcoupon/entity/SmsHomeSubjectSpuEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-coupon/src/main/java/com/example/mallcoupon/entity/SmsMemberPriceEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-common/src/main/java/com/example/mallcoupon/entity/SmsMemberPriceEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-coupon/src/main/java/com/example/mallcoupon/entity/SmsSeckillPromotionEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-common/src/main/java/com/example/mallcoupon/entity/SmsSeckillPromotionEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-coupon/src/main/java/com/example/mallcoupon/entity/SmsSeckillSessionEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-common/src/main/java/com/example/mallcoupon/entity/SmsSeckillSessionEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-coupon/src/main/java/com/example/mallcoupon/entity/SmsSeckillSkuNoticeEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-common/src/main/java/com/example/mallcoupon/entity/SmsSeckillSkuNoticeEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-coupon/src/main/java/com/example/mallcoupon/entity/SmsSeckillSkuRelationEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-common/src/main/java/com/example/mallcoupon/entity/SmsSeckillSkuRelationEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-coupon/src/main/java/com/example/mallcoupon/entity/SmsSkuFullReductionEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-common/src/main/java/com/example/mallcoupon/entity/SmsSkuFullReductionEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-coupon/src/main/java/com/example/mallcoupon/entity/SmsSkuLadderEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-common/src/main/java/com/example/mallcoupon/entity/SmsSkuLadderEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-coupon/src/main/java/com/example/mallcoupon/entity/SmsSpuBoundsEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-common/src/main/java/com/example/mallcoupon/entity/SmsSpuBoundsEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-coupon/src/main/java/com/example/mallcoupon/entity/UndoLogEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-common/src/main/java/com/example/mallcoupon/entity/UndoLogEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-member/src/main/java/com/example/mallmember/MallMemberApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-member/src/main/java/com/example/mallmember/MallMemberApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-member/src/main/java/com/example/mallmember/controller/UmsGrowthChangeHistoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-member/src/main/java/com/example/mallmember/controller/UmsGrowthChangeHistoryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-member/src/main/java/com/example/mallmember/controller/UmsIntegrationChangeHistoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-member/src/main/java/com/example/mallmember/controller/UmsIntegrationChangeHistoryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-member/src/main/java/com/example/mallmember/controller/UmsMemberCollectSpuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-member/src/main/java/com/example/mallmember/controller/UmsMemberCollectSpuController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-member/src/main/java/com/example/mallmember/controller/UmsMemberCollectSubjectController.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-member/src/main/java/com/example/mallmember/controller/UmsMemberCollectSubjectController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-member/src/main/java/com/example/mallmember/controller/UmsMemberController.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-member/src/main/java/com/example/mallmember/controller/UmsMemberController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-member/src/main/java/com/example/mallmember/controller/UmsMemberLevelController.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-member/src/main/java/com/example/mallmember/controller/UmsMemberLevelController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-member/src/main/java/com/example/mallmember/controller/UmsMemberLoginLogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-member/src/main/java/com/example/mallmember/controller/UmsMemberLoginLogController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-member/src/main/java/com/example/mallmember/controller/UmsMemberReceiveAddressController.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-member/src/main/java/com/example/mallmember/controller/UmsMemberReceiveAddressController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-member/src/main/java/com/example/mallmember/controller/UmsMemberStatisticsInfoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-member/src/main/java/com/example/mallmember/controller/UmsMemberStatisticsInfoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-member/src/main/java/com/example/mallmember/dao/UmsGrowthChangeHistoryDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-member/src/main/java/com/example/mallmember/dao/UmsGrowthChangeHistoryDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-member/src/main/java/com/example/mallmember/dao/UmsIntegrationChangeHistoryDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-member/src/main/java/com/example/mallmember/dao/UmsIntegrationChangeHistoryDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-member/src/main/java/com/example/mallmember/dao/UmsMemberCollectSpuDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-member/src/main/java/com/example/mallmember/dao/UmsMemberCollectSpuDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-member/src/main/java/com/example/mallmember/dao/UmsMemberCollectSubjectDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-member/src/main/java/com/example/mallmember/dao/UmsMemberCollectSubjectDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-member/src/main/java/com/example/mallmember/dao/UmsMemberDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-member/src/main/java/com/example/mallmember/dao/UmsMemberDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-member/src/main/java/com/example/mallmember/dao/UmsMemberLevelDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-member/src/main/java/com/example/mallmember/dao/UmsMemberLevelDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-member/src/main/java/com/example/mallmember/dao/UmsMemberLoginLogDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-member/src/main/java/com/example/mallmember/dao/UmsMemberLoginLogDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-member/src/main/java/com/example/mallmember/dao/UmsMemberReceiveAddressDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-member/src/main/java/com/example/mallmember/dao/UmsMemberReceiveAddressDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-member/src/main/java/com/example/mallmember/dao/UmsMemberStatisticsInfoDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-member/src/main/java/com/example/mallmember/dao/UmsMemberStatisticsInfoDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-member/src/main/java/com/example/mallmember/entity/UmsGrowthChangeHistoryEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-common/src/main/java/com/example/mallcoupon/entity/UmsGrowthChangeHistoryEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-member/src/main/java/com/example/mallmember/entity/UmsIntegrationChangeHistoryEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-common/src/main/java/com/example/mallcoupon/entity/UmsIntegrationChangeHistoryEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-member/src/main/java/com/example/mallmember/entity/UmsMemberCollectSpuEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-common/src/main/java/com/example/mallcoupon/entity/UmsMemberCollectSpuEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-member/src/main/java/com/example/mallmember/entity/UmsMemberCollectSubjectEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-common/src/main/java/com/example/mallcoupon/entity/UmsMemberCollectSubjectEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-member/src/main/java/com/example/mallmember/entity/UmsMemberEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-common/src/main/java/com/example/mallcoupon/entity/UmsMemberEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-member/src/main/java/com/example/mallmember/entity/UmsMemberLevelEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-common/src/main/java/com/example/mallcoupon/entity/UmsMemberLevelEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-member/src/main/java/com/example/mallmember/entity/UmsMemberLoginLogEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-common/src/main/java/com/example/mallcoupon/entity/UmsMemberLoginLogEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-member/src/main/java/com/example/mallmember/entity/UmsMemberReceiveAddressEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-common/src/main/java/com/example/mallcoupon/entity/UmsMemberReceiveAddressEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-member/src/main/java/com/example/mallmember/entity/UmsMemberStatisticsInfoEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-common/src/main/java/com/example/mallcoupon/entity/UmsMemberStatisticsInfoEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-member/src/main/java/com/example/mallmember/entity/UndoLogEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-member/src/main/java/com/example/mallmember/entity/UndoLogEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-member/src/main/java/com/example/mallmember/service/UmsGrowthChangeHistoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-member/src/main/java/com/example/mallmember/service/UmsGrowthChangeHistoryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-member/src/main/java/com/example/mallmember/service/UmsIntegrationChangeHistoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-member/src/main/java/com/example/mallmember/service/UmsIntegrationChangeHistoryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-member/src/main/java/com/example/mallmember/service/UmsMemberCollectSpuService.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-member/src/main/java/com/example/mallmember/service/UmsMemberCollectSpuService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-member/src/main/java/com/example/mallmember/service/UmsMemberCollectSubjectService.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-member/src/main/java/com/example/mallmember/service/UmsMemberCollectSubjectService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-member/src/main/java/com/example/mallmember/service/UmsMemberLevelService.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-member/src/main/java/com/example/mallmember/service/UmsMemberLevelService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-member/src/main/java/com/example/mallmember/service/UmsMemberLoginLogService.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-member/src/main/java/com/example/mallmember/service/UmsMemberLoginLogService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-member/src/main/java/com/example/mallmember/service/UmsMemberReceiveAddressService.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-member/src/main/java/com/example/mallmember/service/UmsMemberReceiveAddressService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-member/src/main/java/com/example/mallmember/service/UmsMemberService.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-member/src/main/java/com/example/mallmember/service/UmsMemberService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-member/src/main/java/com/example/mallmember/service/UmsMemberStatisticsInfoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-member/src/main/java/com/example/mallmember/service/UmsMemberStatisticsInfoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-member/src/main/java/com/example/mallmember/service/impl/UmsGrowthChangeHistoryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-member/src/main/java/com/example/mallmember/service/impl/UmsGrowthChangeHistoryServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-member/src/main/java/com/example/mallmember/service/impl/UmsIntegrationChangeHistoryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-member/src/main/java/com/example/mallmember/service/impl/UmsIntegrationChangeHistoryServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-member/src/main/java/com/example/mallmember/service/impl/UmsMemberCollectSpuServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-member/src/main/java/com/example/mallmember/service/impl/UmsMemberCollectSpuServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-member/src/main/java/com/example/mallmember/service/impl/UmsMemberCollectSubjectServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-member/src/main/java/com/example/mallmember/service/impl/UmsMemberCollectSubjectServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-member/src/main/java/com/example/mallmember/service/impl/UmsMemberLevelServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-member/src/main/java/com/example/mallmember/service/impl/UmsMemberLevelServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-member/src/main/java/com/example/mallmember/service/impl/UmsMemberLoginLogServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-member/src/main/java/com/example/mallmember/service/impl/UmsMemberLoginLogServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-member/src/main/java/com/example/mallmember/service/impl/UmsMemberReceiveAddressServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-member/src/main/java/com/example/mallmember/service/impl/UmsMemberReceiveAddressServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-member/src/main/java/com/example/mallmember/service/impl/UmsMemberServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-member/src/main/java/com/example/mallmember/service/impl/UmsMemberServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-member/src/main/java/com/example/mallmember/service/impl/UmsMemberStatisticsInfoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-member/src/main/java/com/example/mallmember/service/impl/UmsMemberStatisticsInfoServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -319,7 +247,7 @@
       <updated>1623995253035</updated>
       <workItem from="1623995254400" duration="17122000" />
       <workItem from="1624079765135" duration="3066000" />
-      <workItem from="1624082880365" duration="3544000" />
+      <workItem from="1624082880365" duration="4521000" />
     </task>
     <task id="LOCAL-00001" summary="项目环境搭建">
       <created>1624002009893</created>
@@ -384,7 +312,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624084997530</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="逆向生成代码">
+      <created>1624086613127</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1624086613127</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

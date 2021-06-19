@@ -1,4 +1,4 @@
-package com.example.mallmember.entity;
+package com.example.mallcoupon.entity;
 
 import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableName;

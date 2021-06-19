@@ -1,18 +1,17 @@
 package com.example.mallmember.controller;
 
 import java.util.Arrays;
-import java.util.Map;
 
 import com.baomidou.mybatisplus.core.toolkit.Wrappers;
+import com.example.mallmember.openFeign.CouponOpenFeign;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import com.wubaba.mall.util.R;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
-import com.example.mallmember.entity.UmsMemberEntity;
+import com.example.mallcoupon.entity.UmsMemberEntity;
 import com.example.mallmember.service.UmsMemberService;
 
 
@@ -30,6 +29,21 @@ import com.example.mallmember.service.UmsMemberService;
 public class UmsMemberController {
     @Autowired
     private UmsMemberService umsMemberService;
+
+    @Autowired
+    private CouponOpenFeign couponOpenFeign;
+
+    /**
+     * 测试远程条用
+     * 查询用户的优惠券
+     */
+    @RequestMapping("listCouponById")
+    public R listCoupon(){
+        Page<Object> objectPage = new Page<>(1, 2);
+        R list = couponOpenFeign.list(objectPage, null);
+        return list;
+    }
+
 
     /**
      * 列表

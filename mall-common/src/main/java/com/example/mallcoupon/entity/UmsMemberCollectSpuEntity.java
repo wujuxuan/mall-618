@@ -1,4 +1,4 @@
-package com.example.mallmember.entity;
+package com.example.mallcoupon.entity;
 
 import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableName;
@@ -8,15 +8,15 @@ import java.util.Date;
 import lombok.Data;
 
 /**
- * 会员登录记录
+ * 会员收藏的商品
  * 
  * @author wujuxan
  * @email 100742839@qq.com
  * @date 2021-06-19 15:07:53
  */
 @Data
-@TableName("ums_member_login_log")
-public class UmsMemberLoginLogEntity implements Serializable {
+@TableName("ums_member_collect_spu")
+public class UmsMemberCollectSpuEntity implements Serializable {
 	private static final long serialVersionUID = 1L;
 
 	/**
@@ -25,24 +25,24 @@ public class UmsMemberLoginLogEntity implements Serializable {
 	@TableId
 	private Long id;
 	/**
-	 * member_id
+	 * 会员id
 	 */
 	private Long memberId;
 	/**
-	 * 创建时间
+	 * spu_id
+	 */
+	private Long spuId;
+	/**
+	 * spu_name
+	 */
+	private String spuName;
+	/**
+	 * spu_img
+	 */
+	private String spuImg;
+	/**
+	 * create_time
 	 */
 	private Date createTime;
-	/**
-	 * ip
-	 */
-	private String ip;
-	/**
-	 * city
-	 */
-	private String city;
-	/**
-	 * 登录类型[1-web，2-app]
-	 */
-	private Integer loginType;
 
 }

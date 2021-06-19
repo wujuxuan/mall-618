@@ -1,9 +1,7 @@
 package com.example.mallmember.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.example.mallmember.entity.UmsIntegrationChangeHistoryEntity;
-
-import java.util.Map;
+import com.example.mallcoupon.entity.UmsIntegrationChangeHistoryEntity;
 
 /**
  * 积分变化历史记录

@@ -1,6 +1,6 @@
 package com.example.mallmember.dao;
 
-import com.example.mallmember.entity.UmsMemberCollectSubjectEntity;
+import com.example.mallcoupon.entity.UmsMemberCollectSubjectEntity;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import org.apache.ibatis.annotations.Mapper;
 

@@ -1,9 +1,7 @@
 package com.example.mallmember.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.example.mallmember.entity.UmsMemberCollectSubjectEntity;
-
-import java.util.Map;
+import com.example.mallcoupon.entity.UmsMemberCollectSubjectEntity;
 
 /**
  * 会员收藏的专题活动
